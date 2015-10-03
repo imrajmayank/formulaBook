@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold 50px Tahoma;
+}
+h2{
+	font: bold 30px Tahoma;
+}
+header, nav, section, article, aside, footer, hgroup{
+	display: block;
+}
+body{
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+}
+#mainDiv{
+	max-width: 1200px;
+	margin: 20px 0px; 
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#mainHeader{
+	background: deepskyblue;
+	padding: 20px;
+}
+#mainHeader a{
+	font: bold 50px broadway;
+	color: green;
+	text-decoration: none;
+}
+#mainNav{
+	background: lightskyblue;
+	padding-left: 15px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#mainNav li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bolder 14px Tahoma;
+}
+#mainNav a{
+	text-decoration: none;
+	color: green;
+
+}
+#right{
+	position: absolute;
+	right: 120px;
+}
+#right a{
+	color: blue;
+}
+#newDiv{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#mainSection{
+	border-right: 1px solid seagreen;
+	-webkit-box-flex: 1;
+	padding: 20px;
+	margin: 20px;
+}
+#mainAside{
+	width: 250px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: silver;
+}
+#mainFooter{
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid green;
+	font-size: 20px;
+	color: red;
+	font-weight: 20px;
+}
+article{
+	background: whitesmoke;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+article footer{
+	text-align: right;
+}

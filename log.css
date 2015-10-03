@@ -1,0 +1,12 @@
+#log-article{
+	background-color: white;
+}
+#log-mainSection{
+	border-right: 1px solid white;
+	-webkit-box-flex: 1;	
+	padding: 20px;
+	margin: 20px;
+}
+#login-pane{
+	color: darkgreen;
+}
